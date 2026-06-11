@@ -21,7 +21,6 @@ export const PostInfo = ({ post }) => {
         <CommentList comments={post.comments} />
       ) : (
         <>
-          {' '}
           <hr />
           <b data-cy="NoCommentsMessage">No comments yet</b>
         </>
